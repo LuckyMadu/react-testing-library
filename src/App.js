@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <Banner />
       <Switch>
-        <Route strict exact path="/" element={TodoPage} />
-        <Route strict exact path="/followers" element={FollowersPage} />
+        <Route strict exact path="/" component={TodoPage} />
+        <Route strict exact path="/followers" component={FollowersPage} />
       </Switch>
     </div>
   );
